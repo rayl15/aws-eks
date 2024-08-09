@@ -69,7 +69,7 @@ module "eks_al2" {
   version = "~> 20.0"
 
   cluster_name    = var.cluster_name
-  cluster_version = "1.30"
+  cluster_version = var.cluster_version
 
   # EKS Addons
   cluster_addons = {
